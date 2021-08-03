@@ -1,0 +1,29 @@
+:root {
+  /* Fonts */
+  --font-primary: Poppins;
+
+  /* Colors */
+  --color-primary: 17, 36, 106;
+  --color-primary--dark: 14, 30, 88;
+  --color-primary--darkest: 11, 24, 71;
+
+  --color-secondary: 177,215,251;
+  --color-dark: 1, 25, 54;
+
+  --color-warn: 254, 127, 45;
+  --color-warn--dark: 244, 98, 1;
+
+  --color-success: 85, 139, 110;
+  --color-success--dark: 62, 101, 80;
+
+  --color-danger: 187, 40, 37;
+  --color-danger--dark: 153, 32, 30;
+
+
+  /* Theming */
+  --border-radius: 6px;
+}
+
+* {
+  font-family: var(--font-primary);
+}

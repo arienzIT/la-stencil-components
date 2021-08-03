@@ -1,0 +1,72 @@
+la-avatar {
+  --avatar-badge-bg: var(--color-secondary);
+  --avatar-badge-color: var(--color-dark);
+  font-family: var(--font-primary);
+  display: block;
+}
+
+.la-avatar {
+  position: relative;
+
+  /* Avatar sizes*/
+  &--small {
+    height: 32px;
+    width: 32px;
+
+    .la-avatar__badge {
+      width: 12px;
+      height: 12px;
+      font-size: 7px;
+    }
+  }
+
+  &--medium {
+    height: 48px;
+    width: 48px;
+
+    .la-avatar__badge {
+      width: 20px;
+      height: 20px;
+      font-size: 10px;
+
+      small {
+        font-size: 6px;
+      }
+    }
+  }
+
+  &--large {
+    height: 64px;
+    width: 64px;
+
+    .la-avatar__badge {
+      width: 24px;
+      height: 24px;
+      font-size: 11px;
+      line-height: 24px;
+
+      small {
+        font-size: 6px;
+      }
+    }
+  }
+
+  &__image {
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__badge {
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(var(--avatar-badge-color));
+    border-radius: 50%;
+    background-color: rgb(var(--avatar-badge-bg));
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

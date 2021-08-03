@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="45px" viewBox="0 0 172 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="Group-2">
+                <polygon id="Path-6" fill="#0B1847" points="24.0655421 31.8157437 12.5342972 31.8157437 18.6937908 15.8137697 14.2411744 4.62850508 0.0645766776 39.82241 27.1526568 39.82241"></polygon>
+                <polygon id="Path-7" fill="#ABD2FA" points="16 0 30.8529017 39.7720812 40.01785 39.7720812 24.2218679 0"></polygon>
+            </g>
+            <text id="Components" font-family="Poppins-SemiBold, Poppins" font-size="18" font-weight="500" letter-spacing="0.5" fill="#0B1847">
+                <tspan x="49" y="40">Component</tspan>
+                <tspan x="163.444" y="40">s</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,73 @@
+la-button {
+  --button-radius: var(--border-radius);
+  --button-color-primary: var(--color-primary);
+  --button-color-primary--hover: var(--color-primary--dark);
+  --button-color-primary--focus: var(--color-primary--darkest);
+  --button-color-secondary: var(--color-primary);
+}
+
+.la-button {
+  cursor: pointer;
+  transition: all .25s ease;
+  font-family: var(--font-primary);
+  border-radius: var(--button-radius);
+
+  &:focus {
+    outline: none;
+  }
+
+  /* Button variants */
+  &--primary {
+    background-color: rgb(var(--button-color-primary));
+    border: none;
+    color: white;
+
+    &:hover:not(.la-button--animated) {
+      background-color: rgb(var(--button-color-primary--hover));
+    }
+
+    &:focus {
+      background-color: rgb(var(--button-color-primary--focus));
+    }
+
+    &.la-button--animated:hover {
+      box-shadow: 0 20px 20px -10px rgba(var(--button-color-primary), .5);
+      transform: translateY(-5px);
+    }
+  }
+
+  &--secondary {
+    background-color: transparent;
+    border: 2px solid rgb(var(--button-color-secondary));
+    color: rgb(var(--button-color-secondary));
+
+    &:hover {
+      background-color: rgba(var(--button-color-secondary), .01);
+    }
+
+    &:focus {
+      background-color: rgba(var(--button-color-secondary), .03);
+    }
+
+    &.la-button--animated:hover {
+      box-shadow: 0 20px 20px -10px rgba(var(--button-color-secondary), .2);
+      transform: translateY(-5px);
+    }
+  }
+
+  /* Button sizes */
+  &--small {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  &--medium {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  &--large {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+}
